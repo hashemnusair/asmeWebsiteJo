@@ -354,7 +354,7 @@ function FAQ1() {
             </div>
           </div>
           <p className="text-xl leading-relaxed text-neutral-700 md:text-2xl font-normal max-w-3xl mx-auto">
-            Here, you'll learn about the <span className="font-semibold text-blue-700">two main ways to get involved</span> — as a member or as a volunteer — along with answers to the most common questions students have about joining and participating in ASME.
+            Here, you&apos;ll learn about the <span className="font-semibold text-blue-700">two main ways to get involved</span> — as a member or as a volunteer — along with answers to the most common questions students have about joining and participating in ASME.
           </p>
         </div>
 
