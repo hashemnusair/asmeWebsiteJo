@@ -36,11 +36,6 @@ const faqs: Record<FAQSection, Array<{ question: string; answer: string; meta?: 
       answer: "Answer to be added soon.",
       meta: "BENEFITS",
     },
-    {
-      question: "Do I need to be a mechanical engineering student to join?",
-      answer: "Answer to be added soon.",
-      meta: "ELIGIBILITY",
-    },
   ],
   volunteering: [
     {
@@ -58,6 +53,11 @@ const faqs: Record<FAQSection, Array<{ question: string; answer: string; meta?: 
       answer: "Answer to be added soon.",
       meta: "JOINING",
     },
+    {
+      question: "How does volunteering benefit me?",
+      answer: "Answer to be added soon.",
+      meta: "BENEFITS",
+    },
   ],
   general: [
     {
@@ -69,6 +69,11 @@ const faqs: Record<FAQSection, Array<{ question: string; answer: string; meta?: 
       question: "Can I be both a volunteer and a member?",
       answer: "Answer to be added soon.",
       meta: "MEMBERSHIP",
+    },
+    {
+      question: "Do I need to be a mechanical engineering student to join?",
+      answer: "Answer to be added soon.",
+      meta: "ELIGIBILITY",
     },
   ],
 };
@@ -89,25 +94,6 @@ function FAQ1() {
         0% { transform: translate3d(0, 20px, 0); opacity: 0; filter: blur(6px); }
         60% { filter: blur(0); }
         100% { transform: translate3d(0, 0, 0); opacity: 1; filter: blur(0); }
-      }
-      @keyframes faq1-beam-spin {
-        0% { transform: rotate(0deg) scale(1); }
-        100% { transform: rotate(360deg) scale(1); }
-      }
-      @keyframes faq1-pulse {
-        0% { transform: scale(0.7); opacity: 0.55; }
-        60% { opacity: 0.1; }
-        100% { transform: scale(1.25); opacity: 0; }
-      }
-      @keyframes faq1-meter {
-        0%, 20% { transform: scaleX(0); transform-origin: left; }
-        45%, 60% { transform: scaleX(1); transform-origin: left; }
-        80%, 100% { transform: scaleX(0); transform-origin: right; }
-      }
-      @keyframes faq1-tick {
-        0%, 30% { transform: translateX(-6px); opacity: 0.4; }
-        50% { transform: translateX(2px); opacity: 1; }
-        100% { transform: translateX(20px); opacity: 0; }
       }
       @keyframes gradient-shift {
         0% { background-position: 0% 50%; }
@@ -170,78 +156,31 @@ function FAQ1() {
         font-weight: 500;
         font-size: 0.875rem;
         letter-spacing: 0.025em;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.2s ease;
         isolation: isolate;
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+        cursor: pointer;
       }
       .faq-section-pill:hover {
         border-color: rgba(255, 255, 255, 0.5);
         background: rgba(255, 255, 255, 0.45);
         color: rgba(15, 23, 42, 0.95);
         transform: translateY(-1px);
-        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.5);
       }
       .faq-section-pill--active {
-        border-color: rgba(59, 130, 246, 0.5);
-        background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(96, 165, 250, 0.12) 100%);
+        border-color: rgba(59, 130, 246, 0.6);
+        background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(96, 165, 250, 0.15) 100%);
         backdrop-filter: blur(20px) saturate(200%);
         -webkit-backdrop-filter: blur(20px) saturate(200%);
         color: rgba(15, 23, 42, 1);
         font-weight: 600;
-        box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 0 0 3px rgba(59, 130, 246, 0.3);
-        transform: scale(1.08);
+        box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.9);
       }
-      .faq-section-pill__beam,
-      .faq-section-pill__pulse {
-        position: absolute;
-        inset: -110%;
-        pointer-events: none;
-        border-radius: 50%;
-      }
-      .faq-section-pill__beam {
-        background: conic-gradient(from 180deg, rgba(59, 130, 246, 0.12), transparent 30%, rgba(96, 165, 250, 0.1) 58%, transparent 80%, rgba(59, 130, 246, 0.08));
-        animation: faq1-beam-spin 20s linear infinite;
-        opacity: 0.6;
-      }
-      .faq-section-pill--active .faq-section-pill__beam {
-        opacity: 0.8;
-        animation-duration: 15s;
-      }
-      .faq-section-pill__pulse {
-        border: 1px solid currentColor;
-        opacity: 0.2;
-        animation: faq1-pulse 4s ease-out infinite;
-      }
-      .faq-section-pill--active .faq-section-pill__pulse {
-        opacity: 0.3;
-        animation-duration: 3s;
-      }
-      .faq-section-pill__meter {
-        position: relative;
-        flex: 1 1 auto;
-        height: 1px;
-        background: linear-gradient(90deg, transparent, currentColor 35%, transparent 85%);
-        transform: scaleX(0);
-        transform-origin: left;
-        animation: faq1-meter 6s ease-in-out infinite;
-        opacity: 0.6;
-      }
-      .faq-section-pill--active .faq-section-pill__meter {
-        opacity: 0.8;
-        animation-duration: 4s;
-      }
-      .faq-section-pill__tick {
-        position: relative;
-        width: 0.5rem;
-        height: 0.5rem;
-        border-radius: 9999px;
-        background: currentColor;
-        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
-        animation: faq1-tick 3.5s ease-in-out infinite;
-      }
-      .faq-section-pill--active .faq-section-pill__tick {
-        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
-        animation-duration: 2.5s;
+      .faq-section-pill--active:hover {
+        border-color: rgba(59, 130, 246, 0.7);
+        background: linear-gradient(135deg, rgba(59, 130, 246, 0.25) 0%, rgba(96, 165, 250, 0.2) 100%);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.95);
       }
     `;
 
@@ -342,7 +281,7 @@ function FAQ1() {
         {/* Intro Text Section */}
         <div className="intro-section space-y-6 text-center max-w-4xl mx-auto">
           <div className="space-y-4">
-            <h2 className="text-4xl font-semibold leading-[1.1] text-neutral-900 md:text-5xl lg:text-6xl tracking-tight">
+            <h2 className="text-3xl font-medium leading-[1.1] text-neutral-900 md:text-4xl lg:text-5xl tracking-tight">
               <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-600 bg-clip-text text-transparent">
                 Welcome to the ASME Student Chapter FAQ!
               </span>
@@ -367,17 +306,19 @@ function FAQ1() {
                 key={section.id}
                 type="button"
                 onClick={() => {
+                  // Prevent auto-scroll by preserving scroll position
+                  const scrollY = window.scrollY;
                   setActiveSection(section.id);
                   setActiveIndex(null);
+                  // Restore scroll position after state update
+                  requestAnimationFrame(() => {
+                    window.scrollTo(0, scrollY);
+                  });
                 }}
                 className={`faq-section-pill ${isActive ? "faq-section-pill--active" : ""}`}
                 aria-pressed={isActive}
               >
-                <span className="faq-section-pill__beam" aria-hidden="true" />
-                <span className="faq-section-pill__pulse" aria-hidden="true" />
-                <span className="relative z-10 font-semibold">{section.title}</span>
-                <span className="faq-section-pill__meter" aria-hidden="true" />
-                <span className="faq-section-pill__tick" aria-hidden="true" />
+                {section.title}
               </button>
             );
           })}
@@ -418,9 +359,9 @@ function FAQ1() {
                       aria-controls={panelId}
                       aria-expanded={open}
                       onClick={() => toggleQuestion(index)}
-                      className="relative flex w-full items-start gap-6 px-6 py-6 text-left transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500/40 md:px-8 md:py-7"
+                      className="relative flex w-full items-center gap-6 px-6 py-6 text-left transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500/40 md:px-8 md:py-7"
                     >
-                      <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-blue-100 bg-gradient-to-br from-blue-50 to-white transition-all duration-500 group-hover:scale-110 group-hover:border-blue-200 group-hover:shadow-md mt-0.5">
+                      <span className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-blue-100 bg-gradient-to-br from-blue-50 to-white transition-all duration-500 group-hover:scale-110 group-hover:border-blue-200 group-hover:shadow-md">
                         <span
                           className={`pointer-events-none absolute inset-0 rounded-full border-2 border-blue-200 opacity-0 transition-opacity duration-300 ${
                             open ? "opacity-100 animate-ping" : ""
@@ -439,25 +380,21 @@ function FAQ1() {
                         </svg>
                       </span>
 
-                      <div className="flex flex-1 flex-col gap-4 min-w-0">
-                        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
-                          <h3 className="text-lg font-semibold leading-tight text-neutral-900 sm:text-xl tracking-tight pt-0.5">
-                            {item.question}
-                          </h3>
-                        </div>
-
-                        <div
-                          id={panelId}
-                          role="region"
-                          aria-labelledby={buttonId}
-                          className={`overflow-hidden text-base leading-relaxed text-neutral-700 transition-[max-height] duration-500 ease-out ${
-                            open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                          }`}
-                        >
-                          <p className="pr-2 pb-2 font-light">{item.answer}</p>
-                        </div>
-                      </div>
+                      <h3 className="flex-1 text-lg font-semibold leading-tight text-neutral-900 sm:text-xl tracking-tight">
+                        {item.question}
+                      </h3>
                     </button>
+
+                    <div
+                      id={panelId}
+                      role="region"
+                      aria-labelledby={buttonId}
+                      className={`overflow-hidden text-base leading-relaxed text-neutral-700 transition-[max-height] duration-500 ease-out ${
+                        open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                      }`}
+                    >
+                      <p className="px-6 pb-6 md:px-8 font-light">{item.answer}</p>
+                    </div>
                   </li>
                 );
               })}
