@@ -3,80 +3,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import BackgroundShader from "./background-shader";
+import { FAQSection, FAQItem, faqSections, faqs } from "./faq-data";
 
 const INTRO_STYLE_ID = "faq1-animations";
-
-type FAQSection = "membership" | "volunteering" | "general";
-
-const faqSections: { id: FAQSection; title: string }[] = [
-  { id: "membership", title: "Membership" },
-  { id: "volunteering", title: "Volunteering" },
-  { id: "general", title: "General" },
-];
-
-const faqs: Record<FAQSection, Array<{ question: string; answer: string; meta?: string }>> = {
-  membership: [
-    {
-      question: "What is an ASME member?",
-      answer: "Answer to be added soon.",
-      meta: "MEMBERSHIP",
-    },
-    {
-      question: "Why should I become a member?",
-      answer: "Answer to be added soon.",
-      meta: "BENEFITS",
-    },
-    {
-      question: "How do I become a member?",
-      answer: "Answer to be added soon.",
-      meta: "JOINING",
-    },
-    {
-      question: "How does becoming a member benefit me?",
-      answer: "Answer to be added soon.",
-      meta: "BENEFITS",
-    },
-  ],
-  volunteering: [
-    {
-      question: "What is an ASME volunteer?",
-      answer: "Answer to be added soon.",
-      meta: "VOLUNTEERING",
-    },
-    {
-      question: "Why should I become a volunteer?",
-      answer: "Answer to be added soon.",
-      meta: "BENEFITS",
-    },
-    {
-      question: "How do I become a volunteer?",
-      answer: "Answer to be added soon.",
-      meta: "JOINING",
-    },
-    {
-      question: "How does volunteering benefit me?",
-      answer: "Answer to be added soon.",
-      meta: "BENEFITS",
-    },
-  ],
-  general: [
-    {
-      question: "What kind of events does ASME organize? (e.g. workshops, competitions, company visits, guest lectures)",
-      answer: "Answer to be added soon.",
-      meta: "EVENTS",
-    },
-    {
-      question: "Can I be both a volunteer and a member?",
-      answer: "Answer to be added soon.",
-      meta: "MEMBERSHIP",
-    },
-    {
-      question: "Do I need to be a mechanical engineering student to join?",
-      answer: "Answer to be added soon.",
-      meta: "ELIGIBILITY",
-    },
-  ],
-};
 
 function FAQ1() {
   const [activeSection, setActiveSection] = useState<FAQSection>("membership");
