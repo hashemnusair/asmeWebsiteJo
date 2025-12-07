@@ -23,7 +23,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "How do I become a member?",
-      answer: "You can become an ASME member by registering through the official ASME Student Membership page at:\nhttps://www.asme.org/membership/student-membership\nJust create an account using your university email and fill in your basic information. First-year students receive their first year of national membership for free, while others pay a low annual fee. Once you complete the registration, you immediately gain access to all ASME student benefits.",
+      answer: "You can become an ASME member by registering through the official ASME Student Membership page at: https://www.asme.org/membership/student-membership. Just create an account using your university email and fill in your basic information. First-year students receive their first year of national membership for free, while others pay a low annual fee. Once you complete the registration, you immediately gain access to all ASME student benefits.",
     },
     {
       question: "How does becoming a member benefit me?",
