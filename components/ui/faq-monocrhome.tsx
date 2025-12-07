@@ -192,7 +192,7 @@ function FAQ1() {
         <div className="flex flex-col items-center gap-8 pt-2">
           <div className="relative h-24 w-24 flex-shrink-0">
             <Image
-              src="/af3263bf-1bd9-49a5-b582-37cce96ae8a6.png"
+              src="/ASMElogo.jpg"
               alt="ASME Logo"
               fill
               className="object-contain drop-shadow-lg"
