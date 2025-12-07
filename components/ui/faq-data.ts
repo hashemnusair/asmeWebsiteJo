@@ -30,11 +30,11 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   volunteering: [
     {
       question: "What is an ASME volunteer?",
-      answer: "An ASME volunteer is a student who actively contributes to the chapter’s activities and helps ensure events run smoothly. Volunteers have specific responsibilities such as organizing sessions, preparing materials, handling registrations, or supporting coordination during activities. You will be part of a dedicated team, so you are not expected to cover all areas at once, each volunteer focuses on the tasks assigned to their team. The role is flexible, allowing you to contribute in areas that match your interests and available time. It’s a practical way to get involved, support the chapter’s work, and gain useful experience along the way.",
+      answer: "An <b>ASME volunteer</b> is a student who actively contributes to the chapter’s activities and helps ensure events run smoothly. Volunteers have specific responsibilities such as <b>organizing sessions</b>, <b>preparing materials</b>, <b>handling registrations</b>, or supporting coordination during activities. You will be part of a dedicated team, so each volunteer focuses on the tasks assigned to their team. The role is flexible, allowing you to contribute in areas that match your interests and available time. It’s a practical way to get involved, support the chapter’s work, and gain useful experience along the way.",
     },
     {
       question: "Why should I become a volunteer?",
-      answer: "Volunteering gives you the chance to develop practical skills such as teamwork, communication, organization, and leadership. You also get to be part of the events you help organize, which gives you a closer, more involved experience in each activity. It shows initiative and responsibility, reflecting your willingness to contribute beyond classroom work. Volunteering also allows you to build connections with other students and with professionals in the industry, helping you grow within a supportive and motivated community.",
+      answer: "Volunteering gives you the chance to develop practical skills such as <b>teamwork</b>, <b>communication</b>, <b>organization</b>, and <b>leadership</b>. You also get to be part of the events you help organize, which gives you a closer, more involved experience in each activity. It shows initiative and responsibility, reflecting your willingness to contribute beyond classroom work. Volunteering also allows you to build connections with other students and with <b>professionals in the industry</b>, helping you grow within a supportive and motivated community.",
     },
     {
       question: "How do I become a volunteer?",
