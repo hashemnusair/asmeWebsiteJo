@@ -15,11 +15,11 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   membership: [
     {
       question: "What is an ASME member?",
-      answer: "An ASME member is a student who officially joins the American Society of Mechanical Engineers and gains access to ASME’s global resources, programs, and student opportunities. Membership connects you to a professional engineering community and provides tools to support your academic and career development.",
+      answer: "An ASME member is a student who officially joins the American Society of Mechanical Engineers and becomes part of a global engineering community. Members get access to helpful resources such as online learning courses, technical articles, career tools, and updates on industry trends. They can also take part in student competitions, conferences, and skill-building programs offered by ASME. Being a member means you’re connected to a network that supports your growth as an engineering student.",
     },
     {
       question: "Why should I become a member?",
-      answer: "Answer to be added soon.",
+      answer: "Becoming an ASME member gives you access to valuable resources at a low cost. If you are a first-year (freshman) student, your first year of national membership is free. For other students, the annual national membership fee is about US $25./nWith membership you unlock benefits like discounted or free online courses, access to a library of technical articles, journals, and e-books, and savings on books and conference fees.You also become eligible to join student competitions, attend conferences, and take part in career-development webinars, all of which can strengthen your résumé and help you explore different branches of engineering.",
     },
     {
       question: "How do I become a member?",
