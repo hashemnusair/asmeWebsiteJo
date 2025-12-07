@@ -52,7 +52,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "Do I need to be a mechanical engineering student to join?",
-      answer: "No, you don’t need to be a mechanical engineering student to join. ASME invites all engineering students to participate, as many of our activities and opportunities apply across different fields. The chapter is especially relevant to students in Mechanical Engineering, Mechatronics, and Aerospace Engineering, but anyone interested in engineering concepts and skill development is welcome to join.",
+      answer: "No, you don’t need to be a mechanical engineering student to join. ASME invites all engineering students to participate, as many of our activities and opportunities apply across different fields. The chapter is especially relevant to students in Mechanical Engineering, Mechatronics, Aerospace Engineering, and Industrial Engineering, but anyone interested in engineering concepts and skill development is welcome to join.",
     },
   ],
 };
