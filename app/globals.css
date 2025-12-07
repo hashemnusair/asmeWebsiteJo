@@ -25,3 +25,14 @@
   }
 }
 
+
+@layer base {
+  strong,
+  b {
+    @apply font-semibold;
+  }
+
+  a {
+    @apply text-blue-600 underline;
+  }
+}
