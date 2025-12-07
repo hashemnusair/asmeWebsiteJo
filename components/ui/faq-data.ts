@@ -51,7 +51,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   general: [
     {
       question: "What kind of events does ASME organize? (e.g. workshops, competitions, company visits, guest lectures)",
-      answer: "ASME organizes a variety of activities designed to help students develop their technical and professional skills. These may include training sessions, hands-on workshops, technical talks, company or facility visits, student competitions, and community or outreach events. The goal is to give students opportunities to learn, practice new skills, and engage with the engineering field in meaningful ways..",
+      answer: "ASME organizes a variety of activities designed to help students develop their technical and professional skills. These may include training sessions, hands-on workshops, technical talks, company or facility visits, student competitions, and community or outreach events. The goal is to give students opportunities to learn, practice new skills, and engage with the engineering field in meaningful ways.",
     },
     {
       question: "Can I be both a volunteer and a member?",
