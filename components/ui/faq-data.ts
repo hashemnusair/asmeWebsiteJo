@@ -19,11 +19,11 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "Why should I become a member?",
-      answer: "Becoming an ASME member gives you access to valuable resources at a low cost. If you are a first-year student, your first year of national membership is free. For other students, the annual national membership fee is about US $25.\nWith membership you unlock benefits like discounted or free online courses, access to a library of technical articles, journals, and e-books, and savings on books and conference fees.You also become eligible to join global student competitions, attend conferences, and take part in career-development webinars, all of which can strengthen your résumé and help you explore different branches of engineering.",
+      answer: "Becoming an ASME member gives you access to valuable resources at a low cost. If you are a first-year student, your first year of national membership is free. For other students, the annual membership fee is 11 JDs when using our discount code: (insert code here). Membership also provides discounted access to local conferences, training events, and other ASME programs. You unlock benefits like online courses, technical articles, journals, e-books, and savings on books and conference fees. You also become eligible to join global student competitions, attend conferences, and take part in career-development webinars. In addition, ASME members receive the invitation to register first when the chapter announces new activities.",
     },
     {
       question: "How do I become a member?",
-      answer: "You can become an ASME member by registering through the official ASME Student Membership page at:\nhttps://www.asme.org/membership/student-membership.\nJust create an account using your university email and fill in your basic information. First-year students receive their first year of national membership for free, while others pay a low annual fee. Once you complete the registration, you immediately gain access to all ASME student benefits.",
+      answer: "You can become an ASME member by registering through the official ASME Student Membership page at:\nhttps://www.asme.org/membership/student-membership.\nJust create an account using your university email and fill in your basic information. First-year students receive their first year of national membership for free, while others pay a low annual fee. Once you complete the registration, you immediately gain access to all ASME student benefits. If you need any help during the process, you can reach us by searching asme_uj on LinkedIn or Instagram.",
     },
     {
       question: "How does becoming a member benefit me?",
