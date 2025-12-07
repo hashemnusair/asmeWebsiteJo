@@ -322,7 +322,12 @@ function FAQ1() {
                         open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                       }`}
                     >
-                      <p className="px-6 pb-6 md:px-8 font-light">{item.answer}</p>
+                       <p
+                        className="px-6 pb-6 md:px-8 font-light"
+                        dangerouslySetInnerHTML={{
+                          __html: item.answer.replace(/\n/g, "<br />"),
+                        }}
+                      />
                     </div>
                   </li>
                 );
