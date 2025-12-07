@@ -38,7 +38,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "How do I become a volunteer?",
-      answer: "You can become a volunteer by filling out our volunteer form:\n<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe37vz3hnoqDVAWPKJhhlzfaCAlVOTEtptEC0PxkkbSu6F79w/viewform?usp=sharing&ouid=105362340778220722368\" target=\"_blank\">Volunteer Form</a></b>.\nAfter submitting the form, you will be invited to a short interview that helps us understand your interests and assign you to the most suitable team.\nAfter the interview, you’ll receive all the information you need to begin your role.",
+      answer: "You can become a volunteer by filling out our volunteer form:\n<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe37vz3hnoqDVAWPKJhhlzfaCAlVOTEtptEC0PxkkbSu6F79w/viewform?usp=sharing&ouid=105362340778220722368\" target=\"_blank\">Volunteer Form</a></b>.\nAfter submitting the form, you will be invited to a <b>hort interview</b> that helps us understand your interests and <b>assign you to the most suitable team</b>.\nAfter the interview, you’ll receive all the information you need to begin your role.",
     },
   ],
   general: [
