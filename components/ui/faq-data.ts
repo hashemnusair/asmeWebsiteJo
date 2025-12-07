@@ -44,15 +44,15 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   general: [
     {
       question: "What kind of events does ASME organize? (e.g. workshops, competitions, company visits, guest lectures)",
-      answer: "ASME organizes a variety of activities designed to help students develop their technical and professional skills. These may include training sessions, hands-on workshops, technical talks, company or facility visits, student competitions, and community or outreach events. The goal is to give students opportunities to learn, practice new skills, and engage with the engineering field in meaningful ways.",
+      answer: "ASME organizes a variety of activities designed to help students develop their technical and professional skills. These may include <b>training sessions</b>, <b>hands-on workshops</b>, <b>technical talks</b>, <b>company or facility visits</b>, <b>student competitions</b>, and <b>community or outreach events</b>. The goal is to give students opportunities to learn, practice new skills, and engage with the engineering field in meaningful ways.",
     },
     {
       question: "Can I be both a volunteer and a member?",
-      answer: "Yes, you can. Many students choose to be members to access ASME’s resources and opportunities, and they volunteer at the same time to contribute to the chapter’s activities. Volunteering does not affect your membership status, and both roles complement each other well. Being involved in both allows you to participate more actively, develop additional skills, and stay engaged with the chapter’s work.",
+      answer: "Yes, you can. Many students choose to be members to access ASME’s <b>resources and opportunities</b>, and they volunteer at the same time to contribute to the chapter’s activities. Volunteering does not affect your membership status, and both roles complement each other well. Being involved in both allows you to participate more actively, <b>develop additional skills</b>, and stay engaged with the chapter’s work.",
     },
     {
       question: "Do I need to be a mechanical engineering student to join?",
-      answer: "No, you don’t need to be a mechanical engineering student to join. ASME invites all engineering students to participate, as many of our activities and opportunities apply across different fields. The chapter is especially relevant to students in Mechanical Engineering, Mechatronics, Aerospace Engineering, and Industrial Engineering, but anyone interested in engineering concepts and skill development is welcome to join.",
+      answer: "No, you don’t need to be a mechanical engineering student to join. ASME invites <b>all engineering students</b> to participate, as many of our activities and opportunities apply across different fields. The chapter is especially relevant to students in <b>Mechanical Engineering</b>, <b>Mechatronics</b>, <b>Aerospace Engineering</b>, and <b>Industrial Engineering</b>, but anyone interested in engineering concepts and skill development is welcome to join.",
     },
   ],
 };
