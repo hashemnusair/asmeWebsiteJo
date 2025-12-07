@@ -27,7 +27,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "How does becoming a member benefit me?",
-      answer: "Answer to be added soon.",
+      answer: "ASME membership gives you access to tools and opportunities that support your academic and professional development. You can use ASME’s online courses, technical journals, webinars, and career resources to expand your knowledge beyond your coursework. Members are also eligible for student competitions, scholarships, leadership programs, and discounted access to conferences and training events. Additionally, when the chapter announces new activities, ASME members receive the invitation to register first.",
     },
   ],
   volunteering: [
