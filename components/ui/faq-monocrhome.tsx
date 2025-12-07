@@ -319,7 +319,7 @@ function FAQ1() {
                       role="region"
                       aria-labelledby={buttonId}
                       className={`overflow-hidden text-base leading-relaxed text-neutral-700 transition-[max-height] duration-500 ease-out ${
-                        open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                        open ? "max-h-none opacity-100" : "max-h-0 opacity-0"
                       }`}
                     >
                        <p
