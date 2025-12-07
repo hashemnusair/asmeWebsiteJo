@@ -15,7 +15,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   membership: [
     {
       question: "What is an ASME member?",
-      answer: "<b>An ASME member</b> is a student who officially joins the American Society of Mechanical Engineers and becomes part of a global engineering community. Members get access to helpful resources such as <b>online learning courses, technical articles, career tools,</b> and <b>updates on industry trends</b>. They can also take part in <b>student competitions, conferences,</b> and <b>skill-building programs</b> offered by ASME. Being a member means you’re connected to a network that supports your growth as an engineering student.",
+      answer: "An <b>ASME member</b> is a student who officially joins the American Society of Mechanical Engineers and becomes part of a global engineering community. Members get access to helpful resources such as <b>online learning courses, technical articles, career tools,</b> and <b>updates on industry trends</b>. They can also take part in <b>student competitions, conferences,</b> and <b>skill-building programs</b> offered by ASME. Being a member means you’re connected to a network that supports your growth as an engineering student.",
     },
     {
       question: "Why should I become a member?",
