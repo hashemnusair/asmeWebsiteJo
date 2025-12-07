@@ -39,10 +39,6 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
       question: "How do I become a volunteer?",
       answer: "Answer to be added soon.",
     },
-    {
-      question: "How does volunteering benefit me?",
-      answer: "Answer to be added soon.",
-    },
   ],
   general: [
     {
