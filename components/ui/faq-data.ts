@@ -30,7 +30,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
   volunteering: [
     {
       question: "What is an ASME volunteer?",
-      answer: "An ASME volunteer is a student who helps the chapter carry out its activities and events. Volunteers assist with tasks such as organizing sessions, preparing materials, handling registrations, communicating with participants, and supporting coordination on the day of an activity. The role is flexible, so students can contribute in areas that match their interests and available time. It’s a practical way to get involved, support the chapter’s work, and gain useful experience along the way.",
+      answer: "An ASME volunteer is a student who actively contributes to the chapter’s activities and helps ensure events run smoothly. Volunteers have specific responsibilities such as organizing sessions, preparing materials, handling registrations, or supporting coordination during activities. You will be part of a dedicated team, so you are not expected to cover all areas at once, each volunteer focuses on the tasks assigned to their team. The role is flexible, allowing you to contribute in areas that match your interests and available time. It’s a practical way to get involved, support the chapter’s work, and gain useful experience along the way.",
     },
     {
       question: "Why should I become a volunteer?",
