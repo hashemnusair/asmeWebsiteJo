@@ -34,7 +34,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "Why should I become a volunteer?",
-      answer: "Answer to be added soon.",
+      answer: "Volunteering gives you the chance to develop practical skills such as teamwork, communication, organization, and leadership. You also get to be part of the events you help organize, which gives you a closer, more involved experience in each activity. It shows initiative and responsibility, reflecting your willingness to contribute beyond classroom work. Volunteering also allows you to build connections with other students and with professionals in the industry, helping you grow within a supportive and motivated community.",
     },
     {
       question: "How do I become a volunteer?",
