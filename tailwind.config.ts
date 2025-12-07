@@ -7,6 +7,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: ["font-semibold", "font-bold", "underline", "text-blue-600"],
   theme: {
     extend: {
       colors: {
