@@ -19,7 +19,7 @@ export const faqs: Record<FAQSection, FAQItem[]> = {
     },
     {
       question: "Why should I become a member?",
-      answer: "Becoming an ASME member gives you access to valuable resources at a low cost. <b>If you are a first-year student, your first year of membership is free</b>. For other students, the annual membership fee is $13.5 USD when using our discount code: 'SECTION'. Membership also provides discounted access to local conferences, training events, and other ASME programs. You unlock benefits like online courses, technical articles, journals, e-books, and savings on books and conference fees. You also become eligible to join global student competitions, attend conferences, and take part in career-development webinars. <b>In addition, ASME members receive the invitation to register first when the chapter announces new activities.</b>",
+      answer: "Becoming an ASME member gives you access to valuable resources at a low cost. <b>If you are a first-year student, your first year of membership is free</b>. For other students, the annual membership fee is $13.5 USD when using our discount code: 'SECTION'. Membership also provides discounted access to local conferences, training events, and other ASME programs. You unlock benefits like online courses, technical articles, journals, e-books, and savings on books and conference fees. You also become eligible to join global student competitions, attend conferences, and take part in career-development webinars. <b>In addition, ASME members receive the invitation to register first when the chapter announces new activities, which often have limited steas.</b>",
     },
     {
       question: "How do I become a member?",
